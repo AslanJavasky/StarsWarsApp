@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/navigation_planets">
+
+    <fragment
+        android:id="@+id/navigation_people"
+        android:name="com.aslanjavasky.montekrist_test.starswars.presentation.fragments.peopleFragment.PeopleFragment"
+        android:label="fragment_people"
+        tools:layout="@layout/fragment_people" />
+    <fragment
+        android:id="@+id/navigation_planets"
+        android:name="com.aslanjavasky.montekrist_test.starswars.presentation.fragments.planetFragment.PlanetsFragment"
+        android:label="fragment_planets"
+        tools:layout="@layout/fragment_planets" />
+    <fragment
+        android:id="@+id/navigation_ships"
+        android:name="com.aslanjavasky.montekrist_test.starswars.presentation.fragments.shipFragment.ShipFragment"
+        android:label="fragment_ship"
+        tools:layout="@layout/fragment_ship" />
+    <fragment
+        android:id="@+id/navigation_favourites"
+        android:name="com.aslanjavasky.montekrist_test.starswars.presentation.fragments.favouritesFragment.FavouritesFragment"
+        android:label="fragment_favourites"
+        tools:layout="@layout/fragment_favourites" />
+</navigation>

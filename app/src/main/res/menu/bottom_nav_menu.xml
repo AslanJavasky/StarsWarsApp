@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_people"
+        android:icon="@drawable/darth_vader"
+        android:title="@string/people" />
+
+    <item
+        android:id="@+id/navigation_planets"
+        android:icon="@drawable/planets"
+        android:title="@string/planets" />
+
+    <item
+        android:id="@+id/navigation_ships"
+        android:icon="@drawable/rocket"
+        android:title="@string/starships" />
+
+    <item
+        android:id="@+id/navigation_favourites"
+        android:icon="@drawable/favorite_icon"
+        android:title="@string/favourites" />
+
+</menu>
